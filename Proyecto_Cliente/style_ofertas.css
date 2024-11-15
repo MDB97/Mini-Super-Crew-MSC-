@@ -1,0 +1,88 @@
+:root {
+    --color-primario: #FFA726; 
+    --color-secundario: #FFEB3B; 
+    --color-fondo: #FFFDE7; 
+    --color-texto: #333; 
+}
+.ofertas-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.highlight {
+    color: #E65100;
+    font-weight: bold;
+}
+.card {
+    border: none;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.section-title {
+    color: #E65100;
+    margin-top: 30px;
+}
+.offer-banner {
+    background-color: #ffebcc;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.offer-banner h2 {
+    font-weight: bold;
+    color: #E65100;
+}
+.offer-banner p {
+    font-size: 18px;
+    color: #333;
+}
+.navbar {
+    background-color: #FFA726;
+}
+.navbar .navbar-brand,
+.navbar-nav .nav-link {
+    color: #FFF !important; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD54F !important; 
+}
+.logo-img {
+    height: 30px; 
+    margin-right: 8px; 
+    vertical-align: middle; 
+}
+#scrollToTop {
+    position: fixed;
+            bottom: 20px;
+            right: 20px; 
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+}
+
+#scrollToTop:hover {
+    background-color: #e68a00;
+}
+footer {
+    background-color: var(--color-secundario);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
